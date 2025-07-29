@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+}
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+button{
+  display: block;
+  border: 2px solid #000;
+  border-radius: 20%;
+  padding: 3vh;
+  margin: 20px auto;
+  font-size: 3vh;
+  background: #fff;
+  box-sizing: border-box;
+  width: 15vh;
+}
+a{
+  font-style: none;
+}
