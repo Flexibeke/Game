@@ -8,3 +8,39 @@ body{
   display: grid;
   place-items: center;
 }
+#organize{
+  margin: 0 auto;
+  
+}
+label{
+  display: block;
+  text-align: center;
+  margin: 2vh;
+}
+input{
+  border: none;
+  all: unset;
+  border-bottom: 2px solid #000;
+  height: 3vh;
+  text-align: center;
+}
+input:focus{
+  outline: none;
+  text-align: center;
+}
+button{
+  border: none;
+  border-radius: 20%;
+  margin: 1vh;
+  height: 3vh;
+  padding: 1vh;
+}
+#text{
+  text-align: center;
+  margin: 2vh;
+  margin-top: 3vh;
+}
+#list{
+  text-align: center;
+  margin-top: 5vh;
+}
