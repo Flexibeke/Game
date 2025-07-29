@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Jogo-style-global.index.html">
+    <link rel="stylesheet" href="Jogo-style-global.style.css">
     <title>0-20</title>
  
 </head>
 <body>
+  <div id="organize">
   <label>
     Adivinhe o número!
   </label>
+  <input type="number" id="valueRecept" placeholder="Dica: 1 - 20">
+  
+  <button onclick="toSend()">Enviar</button>
+  
+  <div id="text"></div>
+  <div id="list"></div>
+  </div>
     <script src="Jogo-easy.main.js">
 
     </script>
